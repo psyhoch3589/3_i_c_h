@@ -48,7 +48,7 @@
                     <?php 
                     if($userr[1]==1)
                     {
-                        echo "<a class='navbar-brand' href='index.php'><img src='ressources/logo.png' alt='logo'></a>";
+                        echo "<a href='index.php'><img src='ressources/logo.png' alt='logo'></a>";
                     }
                     else
                     {

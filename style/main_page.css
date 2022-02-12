@@ -3,6 +3,7 @@
     -webkit-box-shadow: -1px 4px 5px 1px rgba(153,153,152,0.81); 
     box-shadow: -1px 4px 5px 1px rgba(153,153,152,0.81);
     position:sticky;
+    top:0;
     height: 70px;
     z-index: 99;
 }
