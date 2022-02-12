@@ -1,0 +1,324 @@
+.sec12
+{
+    -webkit-box-shadow: -1px 4px 5px 1px rgba(153,153,152,0.81); 
+    box-shadow: -1px 4px 5px 1px rgba(153,153,152,0.81);
+    background-color: #9477d9;
+    position:fixed;
+    height: 75px;
+    z-index: 99;
+    top: 0px;
+}
+        .sec1
+        {
+            margin-top: 12px;
+        }
+        .sec2
+        {
+            /*margin: auto;*/
+            margin-top:6px;
+        }
+        h1
+        {
+            color:#59eed8;
+            font-weight: bold;
+            padding-top: 5px;
+        }
+        
+        .sec44
+        {
+            margin-top: 6%;
+
+        }
+        
+/*version mobile*/
+@media (max-width:768px){
+    .regist
+    {
+        margin-top: 15px;
+    }
+    .cnx0
+    {
+        margin-left: 45%;
+        margin-right: 4px;
+    }
+    .sec35
+    {
+        display: none;
+    }
+    .sec3
+    {
+        display: none;
+    }
+    .sec_right
+    {
+        margin-left: 20px;
+        margin-top: 30%;
+    }
+    #se_conn
+    {
+        margin-left: 10%;
+    }
+.sec3 a
+{
+    text-decoration: none;
+    color: blue;
+}
+.sec3 a:hover
+{
+    text-decoration: underline;
+}
+.sec4
+{
+    width: 96%;
+}
+#google
+{
+    width: 100%;
+    height: 35px;
+    background-color:rgb(25,115,232) ;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-image: url(ressources/google-logo-white-vfltwSoWq.svg);
+}
+#google:hover
+{
+    background-color: #5496FF;
+}
+#Apple
+{
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-image: url(ressources/apple.svg);
+}
+.sec45
+{
+    margin-top: 25px;
+    width: 100%;
+}
+.sec46
+{
+    margin-top: 25px;
+    width: 96%;
+}
+.ou::before,.ou::after,.bas::before
+{
+    content: '';
+        position: relative;
+        width: 44.7%;
+        background-color: #d3d3d3;
+        display: inline-block;
+        height: 1px;
+        vertical-align: middle;
+}
+#mail
+{
+    width: 100%;
+    height: 32px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.15);
+}
+#passwd
+{
+    width: 100%;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.15);
+    margin-bottom: 0px;
+}
+.sec5
+{
+    width: 96%;
+    height: 70px;
+    display: flex;
+    margin-top: 30px;
+}
+.mem1
+{
+    width: 74%;
+}
+#connx
+{
+    width: 150px;
+    height: 35px;
+    background-color:rgb(25,115,232) ;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+#connx:hover
+{
+    background-color: #5496FF;
+}
+a
+{
+    color: blue;
+    text-decoration: none;
+}
+a:hover
+{
+    margin-top: 10px;
+    text-decoration: underline;
+}
+}
+/*version desktop*/
+@media (min-width:768px){
+    .regist{
+        display: none;
+        }
+	.cont
+        {
+            padding: 60px 0px;
+        }
+    .sec_left
+    {
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    .sec_right
+    {
+        margin-left: 20px;
+    }
+    .sec3
+    {
+        display: flex;
+        width: 66%;
+    }
+    #se_conn
+    {
+        margin-left: 10%;
+    }
+.cnx2
+{
+    margin-left: 40%;
+    margin-right: 4px;
+}
+.sec3 a
+{
+    text-decoration: none;
+    color: blue;
+}
+.sec3 a:hover
+{
+    text-decoration: underline;
+}
+.sec4
+{
+    width: 61%;
+}
+#google
+{
+    width: 100%;
+    height: 35px;
+    background-color:rgb(25,115,232) ;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-image: url(ressources/google-logo-white-vfltwSoWq.svg);
+}
+#google:hover
+{
+    background-color: #5496FF;
+}
+#Apple
+{
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    border: none;
+    color: white;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-image: url(ressources/apple.svg);
+}
+.sec45
+{
+    margin-top: 25px;
+    width: 100%;
+}
+.sec46
+{
+    margin-top: 25px;
+    width: 61%;
+}
+.ou::before,.ou::after,.bas::before
+{
+    content: '';
+        position: relative;
+        width: 29%;
+        background-color: #d3d3d3;
+        display: inline-block;
+        height: 1px;
+        vertical-align: middle;
+}
+#mail
+{
+    width: 100%;
+    height: 32px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.15);
+}
+#passwd
+{
+    width: 100%;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.15);
+    margin-bottom: 0px;
+}
+.sec5
+{
+    width: 61%;
+    height: 70px;
+    display: flex;
+    margin-top: 30px;
+}
+.mem1
+{
+    width: 74%;
+}
+#connx
+{
+    width: 150px;
+    height: 35px;
+    background-color:rgb(25,115,232) ;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+#connx:hover
+{
+    background-color: #5496FF;
+}
+a
+{
+    color: blue;
+    text-decoration: none;
+}
+a:hover
+{
+    margin-top: 10px;
+    text-decoration: underline;
+}
+}

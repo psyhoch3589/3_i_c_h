@@ -1,0 +1,55 @@
+@media(max-width:977px){
+    #sec1
+    {
+        text-align: center;
+    }
+    .sec2
+    {
+        
+        margin-top: 40px;
+    }
+    .mk
+    {
+        text-align: center;
+    }
+    .set1
+    {
+        background-color: rgb(238, 235, 235);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 40px;
+    }
+    #test:hover,#test:link,#test:visited
+    {
+        text-decoration: none;
+        color:black;
+    }
+    .set2
+    {
+        margin-top: 90%;
+        margin-left: 60%;
+    }
+    .btn_connx
+    {
+        background-color: blueviolet;
+        border-radius: 3px;
+        width: 90%;
+    }
+    .btn_connx:hover
+    {
+        color: white;
+        background-color: black;
+    }
+    .set1 a
+    {
+        text-decoration: none;
+        color: black;
+    }
+}
+@media(min-width:977px)
+{
+    body
+    {
+        display: none;
+    }
+}

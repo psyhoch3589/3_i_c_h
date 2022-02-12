@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>3ich login</title>
+</head>
+<body>
+    <div class="head">
+        <div id="sec1"><img src="ressources/logo.png" width="50px" height="60px"></div>
+        <div id="sec2"><p id="logo">3ich</p></div>
+    </div>
+   <div id="container">
+       <div id="left">
+           <img src="ressources/photo.png">
+       </div>
+       <div id="right">
+        <div class="sec3">
+            <p id="cnx1" style="font-family: sans-serif;">Se Connecter</p>
+            <p id="cnx2">ou</p>
+            <p><a href="#">créer un compte</a></p>
+			
+<?php
+echo "test";
+?>
+        </div>
+        <div id="sec4">
+            <button id="google">Se connecter avec Google</button><br>
+            <button id="Apple">Se connecter avec Apple</button>
+        </div>
+        <div class="sec45">
+            <span class="ou">ou</span>
+        </div>
+        <div class="sec54">
+            <input type="adress" placeholder="E-mail" id="mail">
+            <input type="password" placeholder="password" id="passwd">
+        </div>
+        <div class="sec5">
+            <div id="mem1">
+                <input type="checkbox" name="Mémoriser">
+                <label for="scales">Mémoriser</label>
+            </div>
+            <button id="connx">Se connecter</button>
+        </div>
+        <a href="#">Mot de passe oublié?</a>
+       </div>
+    </div>
+    <div class="final">
+        <span class="ou2"></span>
+        </div>
+        <div class="final2">
+        <div>
+            <ul id="first f1">
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul id="first">
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul id="first">
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul id="first">
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+                <li><a href="#">3ich</a></li>
+            </ul>
+        </div>
+        </div>
+</body>
+</html>

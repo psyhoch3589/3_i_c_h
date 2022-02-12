@@ -1,0 +1,46 @@
+.head{
+    line-height: 26px;
+}
+.head {
+
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    height: 70px;
+    z-index: 99;
+    font-size: 0;
+    background-color: #9477d9;
+    border-bottom: 1px solid #d0d4d9;
+    box-shadow: 0px 1px 1px #d0d4d9;
+}
+
+#logo
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10%;
+    color: #59eed8;
+    padding: 10px;
+}
+#sec1
+{
+    width: 44%;
+}
+
+#sec21
+{
+    width: 54%;
+    text-align: right;
+    margin-left: 100px;
+}
+.logout
+{
+    width: 40px;
+    height: 40px;
+    color:white;
+    background: rgb(39, 37, 37);
+    border-radius: 70%;
+} 
