@@ -1,4 +1,6 @@
 
+--Tables:--
+
 CREATE TABLE info_user_connx(
 `id` INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
   `email` varchar(150) NOT NULL,
